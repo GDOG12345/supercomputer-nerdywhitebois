@@ -14,7 +14,7 @@ public class Test {
         for (int i = 0; i <= 30000; i+=100) {
             System.out.print(i + " ");
             
-            
+        Gavyn made these two programs.    
             
         }
         System.out.println();
@@ -22,3 +22,20 @@ public class Test {
         for (int i = 0;  i<= 0; i -- );
     }
 }
+    int x = 5;
+        System.out.println("x == " + x);
+        
+        x = x + 1;
+        
+        for (int i = 0 ; i <= 20; i+=2) {
+            System.out.print(i + " ");
+            
+        }
+        System.out.println();
+        
+        for (int i = 15; i >= 0; i--) {
+            System.out.print(i + " ");
+            
+        }
+        System.out.println();
+    }
