@@ -10,6 +10,7 @@ public class Test {
         
         x = x + 1;
         
+        // Elijah did this loop
         for (int i = 0; i <= 30000; i+=100) {
             System.out.print(i + " ");
             
