@@ -13,6 +13,25 @@ public class SuperComputer {
 
 
         Scanner scanner = new Scanner(System.in);
+         System.out.println("1. Loop from 0 to 20 counting by 2");
+        
+        System.out.println("2. Loop from 15 to 0 counting down by 1");
+       
+        System.out.println("please enter your choice here: ");
+        String choice =scanner.nextLine();
+       
+        if (choice.equals("1")) {
+        
+            for (int i = 0 ; i <= 20; i+=2) {
+                System.out.print(i + " ");
+            }
+            System.out.println();
+        }
+        else if (choice.equals("2")) {
+        
+            for (int i = 15; i >= 0; i--) {
+                System.out.print(i + " ");
+            }
         System.out.println("Welcome to our looping program.. Please chose a loop to execute");
         System.out.println("3. Loop from 0 to 100 by 2's");
         System.out.println("4. Loop from 0 to 100 by 5's");
